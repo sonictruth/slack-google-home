@@ -1,0 +1,17 @@
+{
+  "name": "gh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^5.0.1",
+    "@slack/events-api": "^2.2.0",
+    "@slack/interactive-messages": "^1.1.1",
+    "google-home-push": "^1.1.3"
+  }
+}
