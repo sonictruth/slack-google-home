@@ -1,5 +1,6 @@
 const GoogleHome = require('google-home-push');
-const myHome = new GoogleHome('192.168.1.52'); //53
+const googleHomeIp = '192.168.1.53'; // Get the IP from Google Home app
+const myHome = new GoogleHome('googleHomeIp');  
 const fs = require('fs');
 const { RTMClient, WebClient, LogLevel } = require('@slack/client');
 let token;
