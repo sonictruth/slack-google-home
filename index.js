@@ -62,7 +62,7 @@ rtm.on('message', async (message) => {
 
 const sendMessage = async (message) => {
   if (channel) {
-    const msg = await rtm.sendMessage(emoji.emojify(message), channel.id);
+    const msg = await rtm.sendMessage(message, channel.id);
     console.log(`Sent message to ${channel.name} with ts:${msg.ts}`);
   } else {
     console.log('This bot does not belong to any channel, invite it to at least one and try again');
