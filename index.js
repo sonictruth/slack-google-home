@@ -39,8 +39,8 @@ const web = new WebClient(token,
 (async () => {
   const connectionInfo = await rtm.start();
   const res = await web.channels.list();
-  console.log(res.channels);
   channel = res.channels.find(c => c.is_member);
+  console.log('First channel found: ', channel ? channel: 'None');
   console.log('Connection: ', connectionInfo.team.name);
 })();
 
