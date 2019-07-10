@@ -3,7 +3,7 @@
 All messages received by this bot (direct or from channels) will be broadcasted as audio to your Google Home device.
 
 
-1. Create a token.key from https://TEAMNAME.slack.com/apps/A0F7YS25R-bots?next_id=0
+1. Create a file named `token.key` using  https://TEAMNAME.slack.com/apps/A0F7YS25R-bots?next_id=0 (Add Configuration)
 
 2. Change the IP in index.js (you can find the IP of your device in Google Home App)
 
